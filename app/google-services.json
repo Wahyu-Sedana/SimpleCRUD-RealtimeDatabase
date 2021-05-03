@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161206831479",
+    "firebase_url": "https://dasarrealtime-default-rtdb.firebaseio.com",
+    "project_id": "dasarrealtime",
+    "storage_bucket": "dasarrealtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161206831479:android:7c2fa16b1e5f932753f972",
+        "android_client_info": {
+          "package_name": "com.example.belajarcrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161206831479-b5ke78b6btdghkehv3p0r5thriv630if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOJaqgmLHP7GcIv44lHcuK0s4M6__Nbws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161206831479-b5ke78b6btdghkehv3p0r5thriv630if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
