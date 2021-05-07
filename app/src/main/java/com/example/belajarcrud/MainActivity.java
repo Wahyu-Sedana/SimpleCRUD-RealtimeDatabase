@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.belajarcrud.loginregister.RegisterActivity;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity  {
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity  {
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }finally {
-                    Intent intent = new Intent(MainActivity.this, ContentMain.class);
+                    Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
                     startActivity(intent);
                     finish();
                 }

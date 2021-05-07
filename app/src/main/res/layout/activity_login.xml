@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginregister.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginEmail"
+            android:hint="email..."
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginPassword"
+            android:hint="password..."
+            android:inputType="textPassword"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/btnlogin"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun? silahkan login"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:id="@+id/linkRegis"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
